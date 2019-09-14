@@ -22,6 +22,7 @@
         }
     },
     "require": {
+        "laravel/framework": "5.8.*",
         "nette/robot-loader": "^3.2"
     }
 }
