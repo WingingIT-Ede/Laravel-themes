@@ -24,5 +24,6 @@
     "require": {
         "laravel/framework": "5.8.*",
         "nette/robot-loader": "^3.2"
-    }
+    },
+    "license": "GPL-3.0-or-later"
 }
