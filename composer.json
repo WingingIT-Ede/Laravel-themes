@@ -1,0 +1,25 @@
+{
+    "name": "wingingit/themes",
+    "description": "Simple Laravel package for installing multiple themes",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Wouter Hovius",
+            "email": "info@wingingit.nl"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wingingit\\Themes\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Wingingit\\Themes\\": "src/"
+        }
+    }
+
+}
