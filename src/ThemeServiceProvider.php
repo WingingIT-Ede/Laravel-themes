@@ -1,6 +1,8 @@
 <?php
 namespace WingingIT\Themes;
 
+use Illuminate\Support\ServiceProvider;
+
 class ThemeServiceProvider extends ServiceProvider
 {
     /**
