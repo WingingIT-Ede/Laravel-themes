@@ -8,9 +8,6 @@
             "email": "info@wingingit.nl"
         }
     ],
-    "require": {
-        "nette/robot-loader": "^3.2"
-    },
     "extra": {
         "laravel": {
             "providers": [
@@ -23,6 +20,8 @@
             "WingingIT\\Themes\\": "src/",
             "Themes\\": "../../../Themes/"
         }
+    },
+    "require": {
+        "nette/robot-loader": "^3.2"
     }
-
 }
