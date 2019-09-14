@@ -12,13 +12,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wingingit\\Themes\\TodolistServiceProvider"
+                "WingingIT\\Themes\\ThemeServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Wingingit\\Themes\\": "src/"
+            "WingingIT\\Themes\\": "src/"
         }
     }
 
